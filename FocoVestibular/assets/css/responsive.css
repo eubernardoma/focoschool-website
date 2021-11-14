@@ -1,0 +1,11 @@
+@media screen and (max-width: 1264px) {
+    
+    .about-container{width: 100%;}
+    
+    .title-depoimentos span{display: inline;}
+
+    .container-wrapper h2{font-size: 3em;}
+
+    .container-wrapper p{font-size: 1.25rem;}
+    
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.min.css');
+
+/* Root */
+
+:root{
+    --yellow-color: #FFC62D;
+    --text-color: #fff;
+    --dark-blue: #261ca3;
+}
+
+/* Global */
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: normal;
+    text-transform: uppercase;
+    list-style: none;
+}
+/*Classes auxiliares*/
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.w50{
+    width: 50%;
+    float: right;
+}
+
+.w33{
+    float: left;
+    width: 33.33%;
+}
+
+/* Header */
+
+.navbar{background: var(--dark-blue);}
+
+.nav-link:hover{text-decoration: underline;}
+
+
+/* About School */
+
+.about-school{padding: 50px 0;}
+
+section.about-school > .container-md{display: flex; flex-wrap: wrap;}
+
+.about-container{width: 50%;}
+
+
+.about-container h2{
+    font-weight: 700;
+    font-size: 36px;
+    color: #606060;
+    line-height: 42,10px;
+}
+
+.about-container p{
+    color: #7D7C7C;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: none;
+}
+
+/* Depoimentos */
+  
+.container-wrapper {
+    padding: 3.2em;
+    width: 100%;
+    background-image:
+    linear-gradient(to bottom, hsla(220, 51%, 45%, 0.8), 90%, hsl(44, 100%, 59%)),
+    url('../img/fotos-banner/adolescentes-conversando.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container-wrapper h2{ font-size: 3.5em; font-weight: bold;}
+.container-wrapper p{font-size: 1.3em;}
+
+.serif {font-family: 'Zilla Slab', serif; text-transform: none;}
+
+[x-cloak] {display: none;}
+
+.grid-indigo {background-image: radial-gradient(#5a67d8 2px, transparent 2px); background-size: 16px 16px;}
+
+.bg-testimonials{background-color: #385EAB;}
